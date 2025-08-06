@@ -1,26 +1,26 @@
 {
-    "name": "scroll-progress",
-    "version": "1.0.0",
-    "description": "An Obsidian.md plugin that displays a visual scroll progress indicator showing where you are in your notes",
-    "main": "main.js",
-    "scripts": {
-        "dev": "node esbuild.config.mjs",
-        "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+	"name": "scroll-progress",
+	"version": "1.0.1",
+	"description": "An Obsidian.md plugin that displays a visual scroll progress indicator showing where you are in your notes",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
 		"release": "node release.mjs",
 		"release:minor": "node release.mjs minor",
 		"release:major": "node release.mjs major"
-    },
-    "keywords": [],
-    "author": "@gapmiss",
-    "license": "MIT",
-    "devDependencies": {
-        "obsidian": "latest",
-        "tslib": "latest",
-        "typescript": "latest",
-        "esbuild": "latest",
+	},
+	"keywords": [],
+	"author": "@gapmiss",
+	"license": "MIT",
+	"devDependencies": {
+		"obsidian": "latest",
+		"tslib": "latest",
+		"typescript": "latest",
+		"esbuild": "latest",
 		"@types/node": "^16.11.6",
 		"@typescript-eslint/eslint-plugin": "5.29.0",
 		"@typescript-eslint/parser": "5.29.0",
 		"builtin-modules": "3.3.0"
-    }
+	}
 }
