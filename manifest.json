@@ -1,0 +1,10 @@
+{
+    "id": "scroll-progress",
+    "name": "Scroll Progress",
+    "version": "1.0.0",
+    "author": "@gapmiss",
+    "authorUrl": "https://github.com/gapmiss",
+    "description": "Display a visual scroll progress indicator showing where you are in your notes",
+    "minAppVersion": "0.15.0",
+    "isDesktopOnly": false
+}

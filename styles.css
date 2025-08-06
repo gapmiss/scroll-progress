@@ -1,0 +1,19 @@
+.scroll-progress-container {
+    position: fixed;
+    z-index: 9999;
+    background-color: var(--background-primary);
+    width: 100%;
+    overflow: hidden;
+}
+
+.scroll-progress-bar {
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s ease-out;
+}
+
+/* Ensure it works in both reading and live preview modes */
+.markdown-preview-view .scroll-progress-container,
+.cm-contentContainer .scroll-progress-container {
+    position: fixed;
+}   
