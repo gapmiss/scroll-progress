@@ -35,6 +35,7 @@ export class ScrollProgressSettingTab extends PluginSettingTab {
 
         new Setting(containerEl)
             .setName('Enable bar')
+            .setDesc('Toggles the visual progress bar')
             .addToggle(toggle => toggle
                 .setValue(this.plugin.settings.barEnabled)
                 .onChange(async (value) => {
@@ -43,8 +44,6 @@ export class ScrollProgressSettingTab extends PluginSettingTab {
                     // Update status bar immediately when toggled
                     if (value) {
                         this.plugin.createProgressIndicator();
-                        if (this.plugin.settings.showPercentInStatusBar) {
-                        }
                     } else {
                         if (this.plugin.progressEl) {
                             this.plugin.progressEl.remove();

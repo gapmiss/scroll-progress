@@ -7,9 +7,8 @@ Scroll Progress is a minimalist and customizable scroll progress indicator for O
 - Horizontal scroll progress bar at the top or bottom of the editor pane.
 - Optional percentage display in the status bar.
 - Supports both Reading Mode and Live Preview/Edit Mode.
-- Fully configurable: height, color, position, and scroll animation duration.
-- Built-in commands to scroll to the top or bottom of a note.
-- Optional debug logging to assist in troubleshooting.
+- Fully configurable: height, color, position.
+- Built-in commands to scroll to the top or bottom of a note with a configurable scroll animation duration.
 
 ## Installation
 
